@@ -1,3 +1,9 @@
+/* fonts */
+html {
+    font-family: Segoe UI;
+    font-weight: 400;
+}
+
 /* columns */
 .js-app-columns { padding: 0px; }
 .js-column { margin: 0px; }
@@ -30,8 +36,18 @@ header:hover i.icon-sliders { opacity: 1; }
 }
 
 /* sidebar */
-.js-app-header, .app-navigator, .js-column-nav-menu-item, .app-search-fake { background-color: rgb(20,154,233); }
-.column-nav-link, .app-nav-link, .app-nav-tab, .app-search-fake { color: #fff; }
+.js-app-header, .app-navigator,
+.js-column-nav-menu-item, .app-search-fake {
+    background-color: rgb(20,154,233);
+}
+.column-nav-link, .app-nav-link,
+.app-nav-tab, .app-search-fake  {
+    color: #fff; 
+}
+#column-navigator .js-header-action:after { color: transparent; }
+#column-navigator .txt-mute { color: transparent; height: 0px; }
+#column-navigator .nbfc { padding-top: 10px; }
+.app-navigator .nbfc { padding-top: 6px; }
 .app-search-fake { box-shadow: none; }
 .with-nav-border-t:before { border-top-color: transparent; }
 .app-title {display: none; }
