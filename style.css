@@ -7,6 +7,7 @@ html {
 /* columns */
 .js-app-columns { padding: 0px; }
 .js-column { margin: 0px; }
+.gap-chirp{display:none;}
 
 /* column headers */
 h1 .attribution { opacity: 0; }
