@@ -4,6 +4,14 @@ html {
     font-weight: 400;
 }
 
+/* like */
+.js-tweet-actions > li:nth-child(3), .tweet-detail-actions > li:nth-child(3) {
+ 	display: none;   
+}   
+.without-tweet-drag-handles .tweet-detail-action-item {
+ 	width: 33%;   
+}
+
 /* columns */
 .js-app-columns { padding: 0px; }
 .js-column { margin: 0px; }
