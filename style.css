@@ -63,6 +63,11 @@ header:hover i.icon-sliders { opacity: 1; }
 
 /* small mode */
 @media(max-width:350px){
+
+	.js-app-header, .app-navigator,	.js-column-nav-menu-item, .app-search-fake {
+		background-color: #2d2d2d;
+	}
+
 	/* new tweet closed */
 	.is-condensed .app-content {
 		left: 0px;
